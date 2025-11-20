@@ -1,0 +1,42 @@
+
+# --- Python build junk ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
+venv/
+.env/
+.env*/
+.venv/
+
+# --- Buildozer ---
+.buildozer/
+buildozer.spec.backup
+*.apk
+*.aab
+
+# --- Android build artifacts ---
+bin/
+build/
+*.keystore
+
+# --- Logs ---
+*.log
+
+# --- Editor junk ---
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Kivy runtime stuff ---
+*.kv~   # backup kv files
+
+# --- Python packaging ---
+dist/
