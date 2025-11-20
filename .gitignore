@@ -12,10 +12,9 @@ venv/
 .venv/
 
 # --- Buildozer ---
-.buildozer/
+.buildozer
 buildozer.spec.backup
-*.apk
-*.aab
+buildozer.spec
 
 # --- Android build artifacts ---
 bin/
